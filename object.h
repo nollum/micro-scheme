@@ -19,8 +19,6 @@ public:
 
     Object(double (*p)(vector<double>&));
 
-    // Object(Procedure &proc);
-
     Kind get_kind();
 
     double get_value();
@@ -29,9 +27,4 @@ public:
 
     double apply();
 
-    // Sexpr get_arg_list();
-
-    // Sexpr get_body();
-
-    // Procedure get_proc();
 };
